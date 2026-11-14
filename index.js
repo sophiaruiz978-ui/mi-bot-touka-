@@ -1,4 +1,4 @@
-console.log("Hola, soy Touka, tu bot esta listo!");const { Client, LocalAuth } = require('whatsapp-web.js');
+const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 
 const client = new Client({
